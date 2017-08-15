@@ -1,0 +1,84 @@
+body {
+	font-size: 16px;
+	color: black;
+	font-family: 'Oxygen', sans-serif;
+}
+.navbar {
+  border-bottom: 1px black solid;
+}
+.navbar-brand {
+  font-size: 1.5em;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  height: 60px;
+}
+.navbar-header .navbar-brand, .navbar-header .navbar-brand:hover {
+  font-weight: bold;
+  color: black;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid black;
+}
+.navbar-default .navbar-collapse {
+  border-color: black;
+}
+.navbar-nav {
+  text-align: center;
+}
+.navbar-nav hr {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 5px;
+  margin-left: 5px;
+  border-color: black;
+}
+#collapsable-nav > .navbar-nav > li > a {
+  color: black;
+}
+.navbar-nav {
+  background-color: white;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#header-nav {
+  background-color: #f3f0eb;
+}
+.menu-heading {
+  font-weight: bold;
+  font-size: 1.5em;
+  padding-bottom: 20px;
+}
+.column {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 20px;
+  background-color: #f3f0eb;
+}
+.column > h3 {
+  font-size: 1.2em;
+  margin-top: 0px;
+  padding-top: 5px;
+}
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+/********** Extra-small devices only **********/
+@media (max-width: 767px) {
+  #main-content {
+    width: 90%;
+  }
+}
